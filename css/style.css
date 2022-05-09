@@ -46,7 +46,7 @@ header {
 /* Main */
  main {
      width: 100%;
-     height: calc( 100vh - 140px );
+     height: calc( 100vh - 160px );
      overflow-y: auto;
      background-color: black;
  }
@@ -66,14 +66,15 @@ header {
  }
  .card img {
      width: 100%;
+     position: relative;
  }
 
  /* Footer */
 
  footer {
-     height: 70px;
+     height: 90px;
      width: 100%;
-     background-color:burlywood;
+     background-color:#293133;
  }
  .all-container {
      height: 70px;
@@ -97,6 +98,23 @@ header {
 li {
     padding: 5px 10px;
     list-style-type: none;
-    padding-top: 45px;
+    padding-top: 65px;
     color: white;
+    
 }
+.element-right li {
+     color: red;
+ }
+
+ .element-right  {
+     background-color: #808080;
+     height: 90px;
+     padding: 40px;
+
+ }
+ 
+ .right {
+    color: red;
+ }
+ 
+ 
