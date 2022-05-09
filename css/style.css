@@ -70,4 +70,33 @@ header {
 
  /* Footer */
 
+ footer {
+     height: 70px;
+     width: 100%;
+     background-color:burlywood;
+ }
+ .all-container {
+     height: 70px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+.element-left {
+    display: flex;
+}
  
+ }
+ .element-left li {
+     color: white;
+ }
+
+ .t {
+     display: flex;
+ }
+
+li {
+    padding: 5px 10px;
+    list-style-type: none;
+    padding-top: 45px;
+    color: white;
+}
