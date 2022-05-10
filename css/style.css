@@ -50,6 +50,13 @@ header {
      overflow-y: auto;
      background-color: black;
  }
+ .mute {
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     color: white;
+     background-color: rgba(0,0,0,0.5);
+ }
 
  .container-app {
      
@@ -60,6 +67,7 @@ header {
      width: 90%;  
  }
  .card {
+     position: relative;
      width: 200px;
      height: 120px;
      margin: 2px 7px;
@@ -80,10 +88,12 @@ header {
      height: 70px;
      display: flex;
      justify-content: space-between;
+     
  }
 
 .element-left {
     display: flex;
+    padding-top: 20px;
 }
  
  }
@@ -93,13 +103,15 @@ header {
 
  .t {
      display: flex;
+     padding-left: 20px;
  }
 
 li {
     padding: 5px 10px;
     list-style-type: none;
-    padding-top: 65px;
     color: white;
+    padding-left: 10px;
+
     
 }
 .element-right li {
@@ -108,13 +120,21 @@ li {
 
  .element-right  {
      background-color: #808080;
+     display: flex;
+    justify-content: center;
+    align-items: center;  
      height: 90px;
-     padding: 40px;
-
+     padding: 20px;
+ }
+ .element-center {
+    padding-top: 20px;
  }
  
  .right {
     color: red;
  }
  
+ .t i {
+     padding-left: 5px;
+ }
  
